@@ -1,0 +1,17 @@
+# https://taskfile.dev
+version: "3"
+tasks:
+  hi:
+    cmds:
+      - echo 'Hi Task https://taskfile.dev!'
+    silent: true
+#   enable-os:
+#     status:
+#     - test -f Taskfile_{{OS}}.yml
+#     cmds:
+#     - touch Taskfile_{{OS}}.yml
+
+# includes:
+#   os:
+#     taskfile: ./Taskfile_{{OS}}.yml
+#     optionnal: true
